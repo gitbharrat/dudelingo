@@ -75,7 +75,7 @@ def compare_descriptions(model_desc, user_desc):
 def app():
     st.header("Image Comprehension")
     st.write(
-        "Learn to understnad and describe image in your target language. Thhis task focuses on improving your speaking skills and vocabulary."
+        "Learn to understand and describe image in your target language. Thhis task focuses on improving your speaking skills and vocabulary."
     )
 
     if "image_shown" not in st.session_state:
