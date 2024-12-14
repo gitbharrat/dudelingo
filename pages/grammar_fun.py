@@ -5,9 +5,9 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-API_KEY = os.getenv("OPENAI_API_KEY")
+api_key = os.getenv("OPENAI_API_KEY")
 
-client = OpenAI(api_key=API_KEY)
+client = OpenAI(api_key=api_key)
 
 def generate_grammar_excercise():
     completion = client.chat.completions.create(
